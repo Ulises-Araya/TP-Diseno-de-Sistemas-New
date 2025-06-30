@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "react-router-dom": "^7.6.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix Backend-DSI\" \"npm run dev --prefix Frontend-DSI\"",
+    "build": "npm run build --prefix Frontend-DSI",
+    "start": "concurrently \"npm run start --prefix Backend-DSI\" \"npm run start --prefix Frontend-DSI\""
+  }
+}
