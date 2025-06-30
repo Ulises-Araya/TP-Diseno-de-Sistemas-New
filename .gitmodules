@@ -1,0 +1,6 @@
+[submodule "Implementación/Backend-DSI"]
+	path = Implementación/Backend-DSI
+	url = https://github.com/Ulises-Araya/Backend-DSI.git
+[submodule "Implementación/Frontend-DSI"]
+	path = Implementación/Frontend-DSI
+	url = https://github.com/Ulises-Araya/Frontend-DSI.git
